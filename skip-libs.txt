@@ -1,0 +1,10 @@
+detox
+// react-navigation
+react-native-extra-dimensions-android
+react-native-ios-context-menu
+react-native-navbar-color
+react-native-mmkv
+// react-native-screens
+// react-native-reanimated
+react-native-splash-screen
+react-native-vector-icons
