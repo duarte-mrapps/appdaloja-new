@@ -2,11 +2,6 @@ PODS:
   - boost (1.84.0)
   - BVLinearGradient (2.8.3):
     - React-Core
-  - ComputableLayout (0.7.0):
-    - DGSwiftUtilities (~> 0.11)
-  - ContextMenuAuxiliaryPreview (0.5.2):
-    - DGSwiftUtilities (~> 0.29)
-  - DGSwiftUtilities (0.47.0)
   - DoubleConversion (1.1.6)
   - fast_float (8.0.0)
   - FBLazyVector (0.82.1)
@@ -2008,7 +2003,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
-  - react-native-date-picker (5.0.13):
+  - react-native-date-picker (5.0.12):
     - boost
     - DoubleConversion
     - fast_float
@@ -2066,69 +2061,8 @@ PODS:
     - Yoga
   - react-native-geolocation-service (5.3.1):
     - React
-  - react-native-ios-context-menu (3.1.0):
-    - boost
-    - ContextMenuAuxiliaryPreview (~> 0.5)
-    - DGSwiftUtilities
-    - DoubleConversion
-    - fast_float
-    - fmt
-    - glog
-    - hermes-engine
-    - RCT-Folly
-    - RCT-Folly/Fabric
-    - RCTRequired
-    - RCTTypeSafety
+  - react-native-ios-context-menu (1.15.1):
     - React-Core
-    - React-debug
-    - React-Fabric
-    - React-featureflags
-    - React-graphics
-    - React-ImageManager
-    - React-jsi
-    - react-native-ios-utilities
-    - React-NativeModulesApple
-    - React-RCTAppDelegate
-    - React-RCTFabric
-    - React-renderercss
-    - React-rendererdebug
-    - React-utils
-    - ReactCodegen
-    - ReactCommon/turbomodule/bridging
-    - ReactCommon/turbomodule/core
-    - SocketRocket
-    - Yoga
-  - react-native-ios-utilities (5.1.2):
-    - boost
-    - ComputableLayout (~> 0.7)
-    - DGSwiftUtilities (~> 0.46)
-    - DoubleConversion
-    - fast_float
-    - fmt
-    - glog
-    - hermes-engine
-    - RCT-Folly
-    - RCT-Folly/Fabric
-    - RCTRequired
-    - RCTTypeSafety
-    - React-Core
-    - React-debug
-    - React-Fabric
-    - React-featureflags
-    - React-graphics
-    - React-ImageManager
-    - React-jsi
-    - React-NativeModulesApple
-    - React-RCTAppDelegate
-    - React-RCTFabric
-    - React-renderercss
-    - React-rendererdebug
-    - React-utils
-    - ReactCodegen
-    - ReactCommon/turbomodule/bridging
-    - ReactCommon/turbomodule/core
-    - SocketRocket
-    - Yoga
   - react-native-launch-arguments (4.1.1):
     - React
   - react-native-mmkv (3.3.3):
@@ -3457,7 +3391,6 @@ DEPENDENCIES:
   - "react-native-geolocation (from `../node_modules/@react-native-community/geolocation`)"
   - react-native-geolocation-service (from `../node_modules/react-native-geolocation-service`)
   - react-native-ios-context-menu (from `../node_modules/react-native-ios-context-menu`)
-  - react-native-ios-utilities (from `../node_modules/react-native-ios-utilities`)
   - react-native-launch-arguments (from `../node_modules/react-native-launch-arguments`)
   - react-native-mmkv (from `../node_modules/react-native-mmkv`)
   - "react-native-netinfo (from `../node_modules/@react-native-community/netinfo`)"
@@ -3523,9 +3456,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - ComputableLayout
-    - ContextMenuAuxiliaryPreview
-    - DGSwiftUtilities
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -3639,8 +3569,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-geolocation-service"
   react-native-ios-context-menu:
     :path: "../node_modules/react-native-ios-context-menu"
-  react-native-ios-utilities:
-    :path: "../node_modules/react-native-ios-utilities"
   react-native-launch-arguments:
     :path: "../node_modules/react-native-launch-arguments"
   react-native-mmkv:
@@ -3767,9 +3695,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost: 7e761d76ca2ce687f7cc98e698152abd03a18f90
   BVLinearGradient: 880f91a7854faff2df62518f0281afb1c60d49a3
-  ComputableLayout: c50faffac4ed9f8f05b0ce5e6f3a60df1f6042c8
-  ContextMenuAuxiliaryPreview: 20be0be795b783b68f8792732eed4bed9f202c1c
-  DGSwiftUtilities: 567f8d5ee618f0b7afb185b17aa45ff356315a0f
   DoubleConversion: cb417026b2400c8f53ae97020b2be961b59470cb
   fast_float: b32c788ed9c6a8c584d114d0047beda9664e7cc6
   FBLazyVector: 0aa6183b9afe3c31fc65b5d1eeef1f3c19b63bfa
@@ -3823,11 +3748,10 @@ SPEC CHECKSUMS:
   react-native-blob-util: 8b39e1a278d3dc6da8b7e63d74e070c9f1e4c555
   react-native-blur: 981b2ec64b3084ecf98812333f2a8c6e83643a1e
   react-native-compressor: c807ec2a27ef5577dd5192fd2ad789126f63d21d
-  react-native-date-picker: d1d607499ff9f2e1231f902b4bda70595d71253e
+  react-native-date-picker: 75b015a41b3323cab5c0b528f1956fbf82b4d557
   react-native-geolocation: 6a788ce9bd63469be6b9d181f403ddec235234eb
   react-native-geolocation-service: 608e1da71a1ac31b4de64d9ef2815f697978c55b
-  react-native-ios-context-menu: b398b634d5719fd35bda43ea93b5fff81f3f9b06
-  react-native-ios-utilities: 42b214befff5cf79eacc84deb28aa224eb0b867a
+  react-native-ios-context-menu: b170594b4448c0cd10c79e13432216bac99de1ac
   react-native-launch-arguments: c02ee750ca094c92d2f9a5830c2c085efd10ec56
   react-native-mmkv: c70c58437c0f5e5fe6992f1de1e350dcdd236332
   react-native-netinfo: f0a9899081c185db1de5bb2fdc1c88c202a059ac

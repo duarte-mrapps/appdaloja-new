@@ -6,8 +6,8 @@ import uuid from 'react-native-uuid';
 const storage = new MMKV();
 
 export const Constants = {
-    ACCOUNT_ID: '690df4f063143556ceac9bca',
-    ONESIGNAL_APP_ID: 'd3ab9367-f82d-4e58-8377-1694729cb95e',
+    ACCOUNT_ID: '677e7e1b763f79265b9228db',
+    ONESIGNAL_APP_ID: '688977e8-41ea-4afa-89a7-aca8e04c3fca',
 
     SECRET_KEY: '8d05000647b79e5984339beff29549669b2c18af4fe2a8a9ed51e9559afc952c6227ecc1da91b4eb4017e6ac89579e8e35e32609c99b25a5dd904d359663ef9c',
     uniqueId: 'com.mrapps.appdaloja:uniqueId',

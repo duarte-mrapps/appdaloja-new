@@ -767,22 +767,48 @@ const Detail = () => {
         <List
           data={[
             adParam?.description && {
-              component: <View style={{ flex: 1, paddingVertical: 15 }}>
-                <Text style={[MediumFontSize(), { color: colors.text }]}>{adParam?.description}</Text>
-              </View>
+              component: (
+                <View style={{ flex: 1, paddingVertical: 15 }}>
+                  <Text style={[MediumFontSize(), { color: colors.text }]}>
+                    {adParam?.description}
+                  </Text>
+                </View>
+              ),
             },
             adParam?.optionals?.length > 0 && {
-              component:
-                <View style={{ flex: 1, flexDirection: 'row', flexWrap: 'wrap', gap: 10, padding: 10 }}>
-                  {adParam?.optionals.map((item, index) => (
-                    <View key={index} style={{ paddingHorizontal: 10, paddingVertical: 5, backgroundColor: theme == 'dark' ? '#333' : '#e9e9e9', borderRadius: 50, alignItems: 'center', justifyContent: 'center' }}>
+              component: (
+                <View
+                  style={{
+                    flex: 1,
+                    flexDirection: 'row',
+                    flexWrap: 'wrap',
+                    gap: 10,
+                    padding: 10,
+                  }}
+                >
+                  {adParam?.optionals.slice(0, 20).map((item, index) => (
+                    <View
+                      key={index}
+                      style={{
+                        paddingHorizontal: 10,
+                        paddingVertical: 5,
+                        backgroundColor: theme == 'dark' ? '#333' : '#e9e9e9',
+                        borderRadius: 50,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                      }}
+                    >
                       <Text style={{ color: colors.text }}>{item}</Text>
                     </View>
                   ))}
-                </View>,
-              padding: false
-            }
-          ]}
+                </View>
+              ),
+              padding: false,
+            },
+            adParam?.optionals?.length > 20 && {
+              title: 'Ver mais no App',
+            },
+          ].filter(Boolean)}
         />
 
         {getStore?.ad?.warning &&
