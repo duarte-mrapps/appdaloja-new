@@ -2098,7 +2098,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
-  - react-native-ios-utilities (5.1.8-1):
+  - react-native-ios-utilities (5.2.0):
     - boost
     - ComputableLayout (~> 0.7)
     - DGSwiftUtilities (~> 0.46)
@@ -3420,6 +3420,7 @@ DEPENDENCIES:
   - fmt (from `../node_modules/react-native/third-party-podspecs/fmt.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - hermes-engine (from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
+  - OneSignalXCFramework (< 6.0, >= 5.0.0)
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTDeprecation (from `../node_modules/react-native/ReactApple/Libraries/RCTFoundation/RCTDeprecation`)
   - RCTRequired (from `../node_modules/react-native/Libraries/Required`)
@@ -3522,6 +3523,7 @@ DEPENDENCIES:
   - RNShare (from `../node_modules/react-native-share`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - RNWorklets (from `../node_modules/react-native-worklets`)
+  - SDWebImageWebPCoder
   - SocketRocket (~> 0.7.1)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -3831,7 +3833,7 @@ SPEC CHECKSUMS:
   react-native-geolocation: 6a788ce9bd63469be6b9d181f403ddec235234eb
   react-native-geolocation-service: 608e1da71a1ac31b4de64d9ef2815f697978c55b
   react-native-ios-context-menu: b398b634d5719fd35bda43ea93b5fff81f3f9b06
-  react-native-ios-utilities: 93d590830e0e768c20e9c5a6bbef80a9b467506a
+  react-native-ios-utilities: 4fcf94e0eef2ccf924e5a05ae41a602137dc0ea7
   react-native-launch-arguments: c02ee750ca094c92d2f9a5830c2c085efd10ec56
   react-native-mmkv: c70c58437c0f5e5fe6992f1de1e350dcdd236332
   react-native-netinfo: f0a9899081c185db1de5bb2fdc1c88c202a059ac
@@ -3884,7 +3886,7 @@ SPEC CHECKSUMS:
   RNFBApp: 89523a4912396a34fc60727c39835c0473dccddd
   RNGestureHandler: bf1f603bd818932dac6a45c223f23c3a5da3423e
   RNNotifee: 4a6ee5c7deaf00e005050052d73ee6315dff7ec9
-  RNPermissions: df015932d169304af82179439da3c357ca6cbe2d
+  RNPermissions: fe82e91d545fe50c18ff092b4b28de7592ed0d13
   RNRate: ef3bcff84f39bb1d1e41c5593d3eea4aab2bd73a
   RNReactNativeHapticFeedback: 43c09eb41d8321be2e1375cb87ae734e58f677b0
   RNReanimated: c001acbdd8aac49995f6cc3da704d0cc9d70df7a
@@ -3897,6 +3899,6 @@ SPEC CHECKSUMS:
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: 46ff53afcbeda2bae19c85b65e17487c3e3984dd
 
-PODFILE CHECKSUM: a12aa9afa4ff68a0c49c718252e016abf67f340a
+PODFILE CHECKSUM: bb64e8f87fd42693b9d5ed2c6d2b58189a65d381
 
 COCOAPODS: 1.15.2
