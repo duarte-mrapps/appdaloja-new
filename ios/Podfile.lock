@@ -2916,7 +2916,7 @@ PODS:
     - React-perflogger (= 0.82.1)
     - React-utils (= 0.82.1)
     - SocketRocket
-  - ReactNativeAvoidSoftinput (8.0.2):
+  - ReactNativeAvoidSoftinput (5.0.0):
     - boost
     - DoubleConversion
     - fast_float
@@ -3875,7 +3875,7 @@ SPEC CHECKSUMS:
   ReactAppDependencyProvider: cc2795efe30a023c3a505676b9c748b664b9c0a1
   ReactCodegen: c0e5f7e3efd6ea0918e2032a7ebfe61c3a780b6a
   ReactCommon: 6087cb6198592a8dc52a37c0f3761644fead5c88
-  ReactNativeAvoidSoftinput: 2ae0e7e3a6724d5c24077d4518ee60c21bab9833
+  ReactNativeAvoidSoftinput: 30a07614575b3697154b9fa8cd0e53b91ec453ac
   ReactNativeCameraKit: f3642fd510ec0d6d5811bc48c0817e99da0f3809
   RNCPicker: 5ecdf273a7a933dea82838515cc17c402fcf3ff7
   RNDeviceInfo: 8b6fa8379062949dd79a009cf3d6b02a9c03ca59
